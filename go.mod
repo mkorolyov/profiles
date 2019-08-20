@@ -1,4 +1,4 @@
-module humans.net/ms/profiles
+module github.com/mkorolyov/profiles
 
 go 1.12
 
