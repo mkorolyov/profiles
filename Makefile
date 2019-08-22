@@ -10,5 +10,5 @@ gen:
 	--swagger_out=logtostderr=true:. \
 	profile.proto
 
-run: gen
+run:
 	GRPC_GO_LOG_VERBOSITY_LEVEL=99 GRPC_GO_LOG_SEVERITY_LEVEL=info go run cmd/profiles/main.go

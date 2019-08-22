@@ -3,6 +3,8 @@ package profile
 import (
 	"context"
 	"fmt"
+	"github.com/grpc-ecosystem/grpc-gateway/runtime"
+	"google.golang.org/grpc"
 	"math/rand"
 	"strconv"
 	"time"
@@ -15,6 +17,17 @@ type Profile struct {
 
 type ProfileService struct {
 	storage map[string]Profile
+}
+
+func (profileService ProfileService) GRPCRegisterer() func(s *grpc.Server) {
+	return func(s *grpc.Server) {
+		RegisterProfileServer(s, profileService)
+	}
+}
+
+func (profileService ProfileService) HTTPRegisterer() func(ctx context.Context, mux *runtime.ServeMux, endpoint string,
+	opts []grpc.DialOption) (err error) {
+	return RegisterProfileHandlerFromEndpoint
 }
 
 func NewService() *ProfileService {
