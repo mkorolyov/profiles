@@ -1,0 +1,5 @@
+Server:
+  Name: profiles
+  Endpoint: 0.0.0.0:9090
+Logger:
+  Type: dev
