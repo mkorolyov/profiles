@@ -11,4 +11,8 @@ gen:
 	profile.proto
 
 run:
-	GRPC_GO_LOG_VERBOSITY_LEVEL=99 GRPC_GO_LOG_SEVERITY_LEVEL=info go run cmd/profiles/main.go
+	GRPC_GO_LOG_VERBOSITY_LEVEL=99 GRPC_GO_LOG_SEVERITY_LEVEL=info go run \
+	-ldflags "-X github.com/mkorolyov/core/discovery/consul.env=dev" \
+	-ldflags "-X github.com/mkorolyov/core/discovery/consul.ip=0.0.0.0" \
+	-ldflags "-X github.com/mkorolyov/core/discovery/consul.port=9090" \
+	cmd/profiles/main.go
