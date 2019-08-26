@@ -29,7 +29,7 @@ require (
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mattn/go-isatty v0.0.9 // indirect
 	github.com/miekg/dns v1.1.16 // indirect
-	github.com/mkorolyov/core v0.0.0-20190824191756-6d425e6503b8 // indirect
+	github.com/mkorolyov/core v0.0.0-20190826100544-dad53d1bce0e // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect

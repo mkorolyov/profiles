@@ -202,6 +202,8 @@ github.com/mkorolyov/core v0.0.0-20190824105035-def02d9b536d h1:H+C3M/rXJvrRHlqI
 github.com/mkorolyov/core v0.0.0-20190824105035-def02d9b536d/go.mod h1:3JBvbx+V+XFKeIfxdqNDEctCkjejwqtaWFkLIICxb8I=
 github.com/mkorolyov/core v0.0.0-20190824191756-6d425e6503b8 h1:tkCFDA6WlEXJRrW2wKV5M7AK0J4ljXqYW0VP/IdST80=
 github.com/mkorolyov/core v0.0.0-20190824191756-6d425e6503b8/go.mod h1:3JBvbx+V+XFKeIfxdqNDEctCkjejwqtaWFkLIICxb8I=
+github.com/mkorolyov/core v0.0.0-20190826100544-dad53d1bce0e h1:W+Qy85P5iaDkYFxzqvn1tAHQuJpjw+s/P7lkg1Gmstg=
+github.com/mkorolyov/core v0.0.0-20190826100544-dad53d1bce0e/go.mod h1:xRX6M1DFDl4PZL8M7kTsc1UQapq2iYJd+4LlwO1WqMI=
 github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742/go.mod h1:bx2lNnkwVCuqBIxFjflWJWanXIb3RllmbCylyMrvgv0=
